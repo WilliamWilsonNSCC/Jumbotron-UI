@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import ShowCard from '../ui/ShowCard.jsx'
+import NavBar from '../ui/NavBar.jsx'
 
 function Home(){
     
@@ -31,6 +32,7 @@ function Home(){
 
   return(
     <>
+      <NavBar />
       <div className="show-grid">
         {
           Show.length > 0 && (
